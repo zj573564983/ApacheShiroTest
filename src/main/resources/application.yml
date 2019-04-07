@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    dirver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/pizza?characterEncoding=UTF-8
+    username: root
+    password: 123456
